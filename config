@@ -37,6 +37,11 @@ bindsym $mod+d exec dmenu_run
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+for_window [class="^.*"] border pixel 0
+smart_gaps on
+new_window 1pixel
+gaps inner 10
+gaps outer 2
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
