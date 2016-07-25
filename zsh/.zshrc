@@ -53,7 +53,7 @@ plugins=(git catimg command-not-found)
 
 # User configuration
 
- export PATH=$PATH:$HOME/bin
+ export PATH=$PATH:$HOME/bin:$HOME/.cargo/bin
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
