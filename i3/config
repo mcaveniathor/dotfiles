@@ -177,6 +177,6 @@ client.unfocused        #002b36 #073642 #839496 #073642
 client.urgent #002b36 #dc322f #fdf6e3 #002b36
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
-bindsym XF86AudioMute exec amixer -q set Master toggle; exec amixer -q set Headphone unmute
+bindsym XF86AudioMute exec amixer -q set Master toggle; exec amixer -q set Headphone unmute; exec amixer -q set Speaker unmute
 bindsym XF86MonBrightnessUp exec xbacklight -time 500 +5
 bindsym XF86MonBrightnessDown exec xbacklight -time 500 -5

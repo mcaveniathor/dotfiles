@@ -12,7 +12,7 @@ map <C-n> :NERDTreeToggle<CR>
 set hidden
 let g:racer_cmd= "~/repos/other/racer/target/release/racer"
 let $RUST_SRC_PATH= "/usr/local/src/rust/src"
-let g:rustfmt_autosave=1
+let g:rustfmt_autosave=0
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
