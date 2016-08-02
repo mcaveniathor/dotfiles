@@ -180,3 +180,4 @@ bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
 bindsym XF86AudioMute exec amixer -q set Master toggle; exec amixer -q set Headphone unmute; exec amixer -q set Speaker unmute
 bindsym XF86MonBrightnessUp exec xbacklight -time 500 +5
 bindsym XF86MonBrightnessDown exec xbacklight -time 500 -5
+exec --no-startup-id nm-applet

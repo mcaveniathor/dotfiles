@@ -85,3 +85,4 @@ source $ZSH/oh-my-zsh.sh
 alias wtr="curl -Ls wttr.in | head -7"
 alias cbr="cargo build && cargo run"
 alias vsm="vim src/main.*"
+alias nmcli="nmcli -p -c yes"
