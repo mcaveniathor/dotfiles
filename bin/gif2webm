@@ -1,0 +1,2 @@
+ffmpeg -i $1 -speed 0 -threads 7 -cpu-used 0 -c:v libvpx -f webm -b:v 700k -quality good -qmin 10 -qmax 42 -an /dev/null
+ffmpeg -i $1 -speed 0 -threads 7-cpu-used 0 -c:v libvpx -f webm -b:v 700k -quality good -qmin 10 -qmax 42 -an "$F"

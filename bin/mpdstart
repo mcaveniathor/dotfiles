@@ -1,0 +1,6 @@
+#!/bin/sh
+sudo service mpd stop
+mpd && ncmpcpp
+bin/soundfix
+killall pulseaudio; rm -r ~/.config/pulse/* ; rm -r ~/.pulse*
+
