@@ -1,0 +1,23 @@
+sw_volume: 100
+audio_device_state:1:alsaout
+state: stop
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Radiohead - A Moon Shaped Pool/01 - Burn The Witch.mp3
+1:Radiohead - A Moon Shaped Pool/02 - Daydreaming.mp3
+2:Radiohead - A Moon Shaped Pool/03 - Decks Dark.mp3
+3:Radiohead - A Moon Shaped Pool/04 - Desert Island Disk.mp3
+4:Radiohead - A Moon Shaped Pool/05 - Ful Stop.mp3
+5:Radiohead - A Moon Shaped Pool/06 - Glass Eyes.mp3
+6:Radiohead - A Moon Shaped Pool/07 - Identikit.mp3
+7:Radiohead - A Moon Shaped Pool/08 - The Numbers.mp3
+8:Radiohead - A Moon Shaped Pool/09 - Present Tense.mp3
+9:Radiohead - A Moon Shaped Pool/10 - Tinker Tailor Soldier Sailor Rich Man Poor Man Beggar Man Thief.mp3
+10:Radiohead - A Moon Shaped Pool/11 - True Love Waits.mp3
+playlist_end
