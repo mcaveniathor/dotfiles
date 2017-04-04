@@ -1,7 +1,7 @@
 #!/bin/bash
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-curl -sSf https://static.rust-lang.org/rustup.sh | sh
+#curl -sSf https://static.rust-lang.org/rustup.sh | sh
 cd ~/.vim/bundle
 git clone https://github.com/valloric/youcompleteme
 cd ~/.vim/bundle/YouCompleteMe

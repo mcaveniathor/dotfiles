@@ -2,6 +2,12 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set laststatus=2
+set tabstop=4
+set number
+set ruler
+set nocompatible
+set cursorline
+set autoindent
 let g:airline_powerline_fonts=1
 let g:airline_theme='solarized'
 set background=dark

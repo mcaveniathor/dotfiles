@@ -57,8 +57,6 @@ plugins=(git catimg command-not-found)
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
-
-# You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
@@ -88,3 +86,5 @@ alias vsm="vim src/main.*"
 alias nmcli="nmcli -p -c yes"
 alias mpdstart="mpd && ncmpcpp"
 alias xbl="xbacklight -set"
+alias p2="python2"
+alias p3="python3"
