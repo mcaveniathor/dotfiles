@@ -1,3 +1,0 @@
-#!/bin/bash
-ffmpeg -i $1 -speed 0 -threads 7 -cpu-used 0 -c:v libvpx -c:a libvorbis -ac 2 -qmin 0 -qmax 10 -bufsize 1000k -quality good -crf 4 -b:v 2M -pass 1 /dev/null
-ffmpeg -i $1 -speed 0 -threads 7 -cpu-used 0 -c:v libvpx -c:a libvorbis -ac 2 -qmin 0 -qmax 10 -bufsize 1000k -quality good -crf 4 -b:v 2M -pass 1 "$1".webm

@@ -1,2 +1,0 @@
-#!/bin/bash
-cat /dev/urandom | aplay -t raw -f cd 

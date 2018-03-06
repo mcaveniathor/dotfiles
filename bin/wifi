@@ -1,2 +1,0 @@
-#!/bin/bash
-killall nm-applet && sudo nm-applet

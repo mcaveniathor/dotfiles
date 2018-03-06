@@ -1,3 +1,0 @@
-#!/bin/bash
-ls | grep *.flac | while read f; do opusenc --bitrate 128 --vbr "$f" $f.opus & done
-

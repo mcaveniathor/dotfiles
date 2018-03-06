@@ -1,1 +1,0 @@
-echo $(du -h | tail -1)&& echo "/" && echo $(du -h ~/Music | tail -1)
